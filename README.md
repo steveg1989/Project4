@@ -5,3 +5,9 @@ PERFORMANCE
 
 The website was showing many issues affecting the performance of the pages.
 
+ACCESSIBILITY
+
+The web pages aren't fully accessible.
+
+The html element doesn't have a valid value for its [lang] attritube. I then put in the "en" value 
+
