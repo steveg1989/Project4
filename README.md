@@ -9,5 +9,6 @@ ACCESSIBILITY
 
 The web pages aren't fully accessible.
 
-The html element doesn't have a valid value for its [lang] attritube. I then put in the "en" value 
+The html element doesn't have a valid value for its [lang] attritube. I then put in the "en" value to improve the accessibility.
+
 
