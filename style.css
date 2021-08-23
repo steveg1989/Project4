@@ -284,7 +284,8 @@ a:hover {
 }
 
 #bloc-2-services p {
-    font-size: 11px;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 .navbar {
@@ -362,6 +363,10 @@ a:hover {
     z-index: 2;
 }
 
+.link-color{
+    color:#e6e6e6 !important;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -375,8 +380,11 @@ a:hover {
         color: #484848;
     }
     .nav-invert .site-navigation {
-        left: 0;
+        position: relative;
+        width: 100%;
         right: 0;
+        margin-right: 0px;
+        margin-top: 20px;
     }
     .nav-center {
         text-align: center;
@@ -781,12 +789,12 @@ h4 {
 }
 
 .tc-white {
-    color: #364577!important;
+    color: #d8dcee!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #8f340a;
+    color: #FFF!important;
 }
 
 .btn-atomic-tangerine:hover {
