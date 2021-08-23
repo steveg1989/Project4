@@ -95,6 +95,10 @@ a:hover {
     background-size: 280px 280px;
 }
 
+position-r{
+    position: relative;
+}
+
 .b-parallax {
     background-attachment: fixed;
 }
@@ -380,11 +384,8 @@ a:hover {
         color: #484848;
     }
     .nav-invert .site-navigation {
-        position: relative;
-        width: 100%;
+        left: 0;
         right: 0;
-        margin-right: 0px;
-        margin-top: 20px;
     }
     .nav-center {
         text-align: center;
@@ -524,7 +525,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -685,7 +686,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -811,11 +812,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #8D3107!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #6B2606!important;
 }
 
 .icon-dark-slate-blue {
@@ -838,7 +839,12 @@ h4 {
 .bg-atlanta-20made-20sign-20orange {
     background-image: url("img/atlanta%20made%20sign%20orange.jpg");
 }
-
+blockquote {
+    color: #000000!important;
+    border-style: none;
+	font-size: 18px;
+	font-weight: 300;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
