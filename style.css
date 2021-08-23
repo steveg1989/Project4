@@ -841,9 +841,14 @@ h4 {
 }
 blockquote {
     color: #000000!important;
-    border-style: none;
-	font-size: 18px;
-	font-weight: 300;
+    font-size: 15px;
+    line-height: 26px;
+    width: 85%;
+    margin: 0 auto;
+    display: block;
+    max-width: 565px;
+    border-left: none;
+    padding: 10px 20px;
 }
 @media (max-width: 1024px) {
     .bloc {
