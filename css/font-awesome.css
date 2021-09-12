@@ -8,7 +8,9 @@
     src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
     src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
     font-weight: normal;
-    font-style: normal
+    font-style: normal;
+    font-display: swap;
+    
 }
 
 .fa {
@@ -20,21 +22,36 @@
     -moz-osx-font-smoothing: grayscale
 }
 
-
-.fa-snowflake-o:before {
-    content: "\f2dc"
+.fa-chevron-up:before {
+    content: "\f077"
 }
 
-.fa-superpowers:before {
-    content: "\f2dd"
+.fa-twitter:before {
+    content: "\f099"
 }
 
-.fa-wpexplorer:before {
-    content: "\f2de"
+.fa-facebook-f:before,
+.fa-facebook:before {
+    content: "\f09a"
 }
 
-.fa-meetup:before {
-    content: "\f2e0"
+.fa-instagram:before {
+    content: "\f16d"
+}
+
+.fa-dribbble:before {
+    content: "\f17d"
+}
+
+.fa-chevron-left:before {
+	content: "\f053";
+}
+
+.fa-chevron-right:before {
+	content: "\f054";
+}
+.fa-bars:before {
+	content: "\f0c9";
 }
 
 .sr-only {
@@ -46,14 +63,4 @@
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     border: 0
-}
-
-.sr-only-focusable:active,
-.sr-only-focusable:focus {
-    position: static;
-    width: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    clip: auto
 }
