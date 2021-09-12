@@ -95,7 +95,7 @@ a:hover {
     background-size: 280px 280px;
 }
 
-position-r{
+.position-r{
     position: relative;
 }
 
@@ -713,7 +713,7 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
+h2, .t-size {
     font-size: 22px;
     line-height: 1.4em;
 }
@@ -839,6 +839,7 @@ h4 {
 .bg-atlanta-20made-20sign-20orange {
     background-image: url("img/atlanta%20made%20sign%20orange.jpg");
 }
+
 blockquote {
     color: #000000!important;
     border-style: none;
