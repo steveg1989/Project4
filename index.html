@@ -6,16 +6,30 @@
     <meta name="description" content="I'm Mike and I'm a freelance web designer in Atlanta. I am helping local businesses with my services in web design, logo design, and website strategy.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
-  <link rel="stylesheet" type="text/css" href="./css/et-line.css">
+		<meta name="robots" content="index, follow">
+		<link rel="stylesheet preload prefetch"  href="/css/bootstrap.min.css" as="style">
+  
+		<link rel="stylesheet preload prefetch"  href="/style.css" as="style">
+
+		<link rel="preload" as="image" href=/img/atlanta%20made%20sign.jpg>
+  <link rel="stylesheet preload" crossorigin="anonymous" as="style" href="./css/font-awesome.css">
+  <link rel="stylesheet preload" crossorigin="anonymous" as="style" href="./css/et-line.css">
+
+	
+	<link rel="stylesheet preload" crossorigin="anonymous" as="style" href="./css/font-awesome.min.css">
+	<link rel="stylesheet preload" crossorigin="anonymous" as="style" href="./css/et-line.css">
+	<link rel="preload" href="/fonts/et-line.woff" as="font" crossorigin="anonymous">
+	<link rel="preload" href="/fonts/fontawesome-webfont.woff2?v=4.7.0" as="font" crossorigin="anonymous">
+
+	
+
+		
 
 	
     
 	
 
-    <title>Go Mike Designs</title>
+    <title>GoMike Designs</title>
 
     
 <!-- Analytics -->
@@ -28,15 +42,16 @@
 <div class="page-container">
     
 <!-- bloc-0 -->
-<header class="bloc bgc-white l-bloc " id="bloc-0">
+<header class="bloc bgc-white l-bloc " id="bloc-0" role="banner">
 	<div class="container bloc-sm">
-		<nav class="navbar row">
-			<div class="navbar-header">
+		
+			<nav class="navbar row" role="navigation">
 					
-				<a class="navbar-brand" href="index.html"><img src="img/atlanta%20web%20design%20logo.png" alt="GoMikeDesigns Logo - Homepage" height="40" width="200"/></a>
+				<a class="navbar-brand" href="index.html"><img src=/img/atlanta%20web%20design%20logo%20(1).jpg alt="GoMikeDesigns Logo - Homepage" height="40" width="200"/></a>
 					
 
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1  aria-label="toggle navigation
+				aria-controls="toggleNavbar" aria-expanded="false">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
@@ -47,7 +62,6 @@
 					</li>
 					<li>
 						<a href="contact.html">Contact</a>
-					<li>
 						
 				</ul>
 			</div>
@@ -61,7 +75,7 @@
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace">
 			<div class="col-sm-12">
-				<img src="img/atlanta%20web%20designer%20mike.png" class="center-block image-resize-mode" width="100" height="100" alt="Mike Picture" />
+				<img src=/img/atlanta%20web%20designer%20mike%20.jpg class="center-block image-resize-mode" width="100" height="103" alt="Mike Picture" />
 				<h1 class="text-center hero-bloc-text tc-white ">
 					I'm Mike and I'm a freelance web designer in Atlanta.
 				</h1>
@@ -129,20 +143,21 @@
 <!-- bloc-2-services END -->
 
 <!-- bloc-3-what-i-do -->
-<div class="bloc tc-white bgc-atomic-tangerine bloc-bg-texture texture-paper b-parallax bg-atlanta-20made-20sign-20orange d-bloc" id="bloc-3-what-i-do">
+<article
+	class="bloc tc-white bgc-atomic-tangerine bloc-bg-texture texture-paper b-parallax bg-atlanta-20made-20sign-20orange d-bloc" id="bloc-3-what-i-do">
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace black-background">
 			<div class="col-sm-12">
-				<h2 class="mg-md text-center tc-white">
+				<p class="mg-md text-center tc-white t-size">
 					I love Atlanta, my hometown, and want to see all Atlanta businesses succeed. I help by offering web design services that help local businesses stand out and attract new customers online.<br>
-				</h2>
+				</p>
 				<p class="text-center white">
 					I'm super excited you are here. I partner with creative entrepreneurs and local Atlanta business that are either starting or needing to renew their website to attract business. Whether you need a complete brand identity or a redesign of your website, I'll work with you to create something that looks great and structured to be found on Google.
 				</p>
 			</div>
 		</div>
 	</div>
-</div>
+</article>
 <!-- bloc-3-what-i-do END -->
 
 <!-- bloc-4-portfolio -->
@@ -156,7 +171,7 @@
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
 			<div class="col-sm-6">
-				<a href="img/11.jpg" data-lightbox="img/11.jpg" data-gallery-id="gallery-1" data-caption="Website for Atlanta's Premiere dog sitters" data-frame="snapshot-lb"><img src="img/11.jpg" class="img-responsive portfolio-thumb" alt="Dog with it's dog sitter in the background." width="300" height="300" /></a>
+				<a href="img/11.jpg" data-lightbox="img/11.jpg" data-gallery-id="gallery-1" data-caption="Website for Atlanta's Premiere dog sitters" data-frame="snapshot-lb"><img src="img/11.jpg" class="img-responsive portfolio-thumb" alt="Photo of dog with its dog sitter in the background." width="300" height="300" /></a>
 				<h3 class="mg-md text-center">
 					Website for Atlanta's premiere Dog Sitters
 				</h3>
@@ -165,7 +180,7 @@
 				</p>
 			</div>
 			<div class="col-sm-6">
-				<a href="./img/2.jpg" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="web redesign for the best cupcakes in Atlanta" data-frame="snapshot-lb"><img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="4 cupcakes from a local bakery in Atlanta" width="300" height="300"/></a>
+				<a href="./img/2.jpg" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="web redesign for the best cupcakes in Atlanta" data-frame="snapshot-lb"><img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="4 cupcakes from a bakery in Atlanta" width="300" height="300"/></a>
 				<h3 class="mg-md text-center">
 					Web redesign for the best Atlanta cupcakes
 				</h3>
@@ -176,7 +191,7 @@
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
 			<div class="col-sm-6">
-				<a href="./img/3.bmp" data-lightbox="img/3.bmp" data-gallery-id="gallery-1" data-caption="New logo and website for Atlanta's best tech gear shop" data-frame="snapshot-lb"><img src="img/3.bmp" class="img-responsive portfolio-thumb" alt="Camera parts from a tech gear shop in Atlanta" width="310" height="310"></a>
+				<a href="./img/3.jpg" data-lightbox="img/3.jpg" data-gallery-id="gallery-1" data-caption="New logo and website for Atlanta's best tech gear shop" data-frame="snapshot-lb"><img src="img/3.jpg" class="img-responsive portfolio-thumb" alt="Camera parts from a tech gear shop in Atlanta" width="310" height="310"></a>
 				<h3 class="mg-md text-center">
 					New logo and website for Atl + Gear - Atlanta's best tech gear shop
 				</h3>
@@ -185,7 +200,7 @@
 				</p>
 			</div>
 			<div class="col-sm-6">
-				<a href="./img/4.bmp" data-lightbox="img/4.bmp" data-gallery-id="gallery-1" data-caption="Atlanta's legal website generates 30% more clients after web redesign" data-frame="snapshot-lb"><img src="img/4.bmp" class="img-responsive portfolio-thumb" alt="Man in a suit on a helicopter" width="310" height="310" /></a>
+				<a href="./img/4.jpg" data-lightbox="img/4.jpg" data-gallery-id="gallery-1" data-caption="Atlanta's legal website generates 30% more clients after web redesign" data-frame="snapshot-lb"><img src="img/4.jpg" class="img-responsive portfolio-thumb" alt="Man in a suit on a helicopter" width="310" height="310" /></a>
 				<h3 class="mg-md text-center">
 					Atlanta's legal new website - Generating 30% more law clients with a refresh.
 				</h3>
@@ -202,7 +217,7 @@
 <div class="bloc bgc-dark-slate-blue bg-atlanta-20made-20sign d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
 	<div class="container bloc-lg">
 		<div class="row">
-			<h2 class="mg-md text-center tc-white">
+			<h2 class="mg-md text-center tc-white position-r">
 				Ready for a great website? <br>Let's design!
 			</h2>
 			<div class="col-sm-12 text-center">
@@ -214,7 +229,7 @@
 <!-- bloc-5-cta END -->
 
 <!-- Footer - bloc-8 -->
-<div class="bloc bgc-dark-slate-blue d-bloc" id="bloc-8">
+<div class="bloc bgc-dark-slate-blue d-bloc" id="bloc-8" role="contentinfo">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
@@ -225,31 +240,33 @@
 					<div class="col-sm-3">
 						<div class="text-center">
 							<a href="https://www.Twitter.com" target="_blank" rel="noreferrer">
-								<i class="fa fa-twitter icon-md"></i>
-								<p class="link-color">Twitter</p>
-							</a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
-								<i class="fa fa-facebook icon-md"></i>
-								<p class="link-color">Facebook</p>
-							</a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a href="https://dribbble.com/" target="_blank" rel="noreferrer">
-								<i class="fa fa-dribbble icon-md"></i>
-								<p class="link-color">Dribbble</p>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
-								<i class="fa fa-instagram icon-md"></i>
-								<p class="link-color">Instagram</p>
+                <i class="fa fa-twitter icon-md"></i>
+                <p class="link-color">Twitter</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="text-center">
+              <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+                <i class="fa fa-facebook icon-md"></i>
+                <p class="link-color">Facebook</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="text-center">
+              <a href="https://dribbble.com/" target="_blank" rel="noreferrer">
+                <i class="fa fa-dribbble icon-md"></i>
+                <p class="link-color">Dribbble</p>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="text-center">
+              <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+                <i class="fa fa-instagram icon-md"></i>
+                <p class="link-color">Instagram</p>
+
+
 							</a>
 						</div>
 					</div>
@@ -265,6 +282,7 @@
 </div>
 <!-- Main container END -->
     
+
 
 </body>
 </html>
