@@ -5,11 +5,41 @@ PERFORMANCE
 
 The website was showing many issues affecting the performance of the pages.
 
+To ensure that the text remains during web font load, I have added the font-display:swap css property to @font-face.
+
+The images are now correct sized, formatted abd compressed by using compressor.io. Therefore, this saves mobile data and improve load. Explicit height and weight have also been added to the img elements.
+
+I have improved the loading speed by removing unused code from CSS and Javascript. Both CSS and Javascript files have been minified as well reduced their file sizes.
+
+
+
 ACCESSIBILITY
 
 The web pages aren't fully accessible.
 
-The html element doesn't have a valid value for its [lang] attritube. I then put in the "en" value to improve the accessibility.
+The Div Tags now have been replaced with semantic tags to give the pages structure . Also to allow the users to navigate through the page.
+
+The html element doesn't have a valid value for its [lang] attritube. I then put in the "en" value to allow screen readers to read with the right pronunciation.
+
+The aria-label and ARIA attribute have been added. Navigation is now to be read by screen readers.
 
 
-http://127.0.0.1:5501/index.html
+BEST PRACTICE
+
+I used Html and CSS validator to identify the code errors and correct them.
+
+
+SEO
+
+The title of both pages have been to changed to match with the content and now contains the main keyword instead of many unnecessary keywords.
+
+Meta keywords have been removed.
+
+There is keyword stuffing which shouldnt be included. There are too many keywords being used to get a higher rank on when the webpage shows up which isn't fair for others. I have rewritten the meta description of the home and contact page, so its integrating the keywords more in a natural way.
+
+
+
+
+
+
+
