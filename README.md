@@ -42,7 +42,7 @@ Meta keywords have been removed.
 
 There is keyword stuffing which shouldnt be included. There are too many keywords being used to get a higher rank on when the webpage shows up which isn't fair for others. I have rewritten the meta description of the home and contact page, so its integrating the keywords more in a natural way.
 
-
+Screenshot of the Lighthouse report after optimization
 ![Screenshot of the Lighthouse report after optimization](https://user-images.githubusercontent.com/79769086/134257171-9169855c-4f06-4f01-b24e-afbe4be95706.png)
 
 
