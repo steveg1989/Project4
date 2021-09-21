@@ -13,6 +13,7 @@ I have improved the loading speed by removing unused code from CSS and Javascrip
 
 
 
+
 ACCESSIBILITY
 
 The web pages aren't fully accessible.
@@ -24,9 +25,13 @@ The html element doesn't have a valid value for its [lang] attritube. I then put
 The aria-label and ARIA attribute have been added. Navigation is now to be read by screen readers.
 
 
+
+
 BEST PRACTICE
 
 I used Html and CSS validator to identify the code errors and correct them.
+
+
 
 
 SEO
