@@ -47,6 +47,8 @@ Screenshot of the Lighthouse report after optimization
 
 
 
+Contact page Screenshot of the Lighthouse report after optimization
+![Contact Screenshot of the Lighthouse report before optimization](https://user-images.githubusercontent.com/79769086/134597983-b62d7981-64fb-421c-b774-5adbdeaf1191.png)
 
 
 
